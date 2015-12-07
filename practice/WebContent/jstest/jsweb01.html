@@ -1,0 +1,21 @@
+<!DOCTYPE HTML>
+<html lang="en">
+<head>
+	<meta charset = "UTF-8"/>
+	<title>Sample Page</title>
+</head>
+<body>
+	<div id = "a"></div>
+	<div id = "b"></div>	
+	<script>
+		document.writeln(navigator.userAgent + "<br>");
+		if(window.addEventListener)
+			document.writeln("it is not IE");
+		else if(window.attachEvent){
+			document.writeln("it is IE");
+		}
+		
+		
+	</script>
+</body>
+</html>
